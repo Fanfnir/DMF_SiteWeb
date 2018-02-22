@@ -11,7 +11,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
 	<!-- CSS Perso -->
-<link rel="stylesheet" type="text/css" href="css/dmfstyle.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/contact.css" media="screen" />
 </head>
 <body>
