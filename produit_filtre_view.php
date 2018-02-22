@@ -31,7 +31,7 @@
 	<?php include('header_view.php') ?> 
 	</header>
 
-		<form method="get" action="filtre_cible.php">
+		<form method="get" action="produit_filtre_view.php">
 			<p>
 				Trier les produits par critères :<br /><br />
 			</p>										<!-- MAIN -->
