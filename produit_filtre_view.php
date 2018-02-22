@@ -102,7 +102,7 @@
 										<!--  FOOTER -->
 
 <footer>
-	<? include('footer_view.php') ?>
+	<?php include('footer_view.php') ?>
 </footer>
 <script src="js/bootstrap.js"></script>
 </body>
