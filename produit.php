@@ -41,3 +41,60 @@ function afficher_produit() { //fonction pour afficher tous les produits contenu
 	$req = $pdo->query('SELECT * FROM produits');
 	return $req;
 };
+
+function verif_url_exists(){
+	global $pdo;
+	$reqNewUrl = $pdo->prepare("SELECT * FROM DMF.produits WHERE lien = ?");
+	$reqNewUrl->execute([$_POST['url']]);
+	$urlexist = $reqNewUrl->rowCount();
+	return $urlexist;
+};
+
+function inserer_produit(){
+	global $pdo;
+	$newUrl = htmlspecialchars($_POST['url']);
+	$newDescription = htmlspecialchars($_POST['description_produit']);
+	$newMarque = htmlspecialchars($_POST['marque']);
+	$newKeyword = htmlspecialchars($_POST['keyword']);
+	$newUrlpic = htmlspecialchars($_POST['urlpic']);
+	
+	$sql = $pdo->prepare('INSERT INTO DMF.produits(type,lien,photo,description, marque_idMarque) VALUES (:keyword, :url, :urlpic, :description, :marque)');
+	$sql -> bindParam(':keyword', $newKeyword);
+	$sql -> bindParam(':url', $newUrl);
+	$sql -> bindParam(':urlpic', $newUrlpic);
+	$sql -> bindParam(':description', $newDescription);
+	$sql -> bindParam(':marque', $newMarque);
+
+	$req = $sql->execute();
+	return $req;
+};
+
+function inserer_label($idProduit, $labels){
+	global $pdo;
+	$sql = $pdo->prepare('INSERT INTO DMF.produits_has_label(label_idLabel, produits_idProduits) VALUES (:labelid, :produitid)');
+
+	$sql -> bindParam(':produitid', $idProduit);
+
+	//parcours le tableau label[] faisant référence aux checkbox label à relier au produit ajouter
+	foreach($labels as $label) { 
+
+		$sql -> bindParam(':labelid', $label);
+		$req = $sql->execute();
+
+	}
+};
+
+function inserer_critere($idProduit, $criteres){
+	global $pdo;
+	$sql = $pdo->prepare('INSERT INTO DMF.produits_has_critere(critere_idcritere, produits_idProduits) VALUES (:critereid, :produitid)');
+
+	$sql -> bindParam(':produitid', $idProduit);
+
+	//parcours le tableau critere[] faisant référence aux checkbox critere à relier au produit ajouté
+	foreach($criteres as $critere) { 
+
+		$sql -> bindParam(':critereid', $critere);
+		$req = $sql->execute();
+
+	}
+};
