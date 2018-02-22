@@ -3,7 +3,7 @@
 </div>
 <div class="collapse" id="addref">
 	
-	<form  method="POST" action="refURL.php">
+	<form  method="POST" action="produit_ajout.php">
 
 <!--URL-->			<div class="container">
 							<div class="row justify-content-md-center col-xs-12 col-md-12 col-lg-12">
@@ -107,7 +107,7 @@
 
 									<textarea class="form-control" id="message" rows="6" cols="30" placeholder="Entrez la desciption du produit ou laissez un commentaire ici :)" maxlength="280"></textarea>
 									<br>
-									<button class="btn btn-custom" type="submit" value="Envoyer">Envoyer</button>
+									<button class="btn btn-custom" type="submit" value="Envoyer" name="Go">Envoyer</button>
 
 								</fieldset>
 				</div>
