@@ -27,7 +27,7 @@
 
 										<!-- HEADER -->
 	<header>
-		<?php include('DMFHeader.php') ?>
+		<?php include('header_view.php') ?>
 	</header>
 <div class="container">								<!-- MAIN -->
 		<div class="us">
@@ -60,7 +60,7 @@
 										<!--  FOOTER -->
 </div>
 <footer>
-	<? include('DMFFooter.php') ?>
+	<? include('footer_view.php') ?>
 </footer>
 <script src="js/bootstrap.js"></script>
 </body>
