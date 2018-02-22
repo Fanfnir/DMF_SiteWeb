@@ -44,7 +44,7 @@
 	<div class="container">
 		<div class="presentation">
 
-			<h2>Le Shopping Responsable</h2>
+			<h2> Responsable</h2>
 			<p>
 				Mus par l'envie de vous offrir de nouveaux choix en matière de shopping , dresseme Fair désire vous proposer de nouvelles alternatives Economiques, Ecologiques et Responsables face à un marché de la mode saturé par le fast-fashion. 
 			</p>
