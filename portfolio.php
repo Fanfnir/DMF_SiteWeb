@@ -32,7 +32,7 @@
 	
 		<div class="col-xs-12 col-md-2">
 			<figure class="figure">
-		<img src="img/PICJordan.png" alt="photo-Jordan">
+		<img src="img/PICJORDAN.png" alt="photo-Jordan">
 		<figcaption class="figure-caption text-center">Jordan<br>Dev Back-End</figcaption>
 		</figure>
 		</div>
