@@ -1,0 +1,351 @@
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('Roboto-Light-webfont.eot');
+    src: url('Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Light-webfont.woff2') format('woff2'),
+         url('Roboto-Light-webfont.woff') format('woff'),
+         url('Roboto-Light-webfont.ttf') format('truetype'),
+         url('Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a, h3
+{
+	color: #FCFAF1;
+	font-family: 'robotolight';
+	height: 10%;
+
+}
+
+
+								/* GENERAL SETTINGS*/
+
+
+body
+
+{
+	background-color: #FCFAF1;
+}
+
+p, article
+{
+	text-align: center;
+}
+
+
+					/*HEAAAAAAAAAAAAADER*/
+
+
+
+
+
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #313D5A;
+	width: 100%;
+}
+
+
+.logodmf
+{
+	height: 120px;
+width: 30%;
+text-align: center;
+
+}
+
+.SR
+{
+	padding: 0% 2% 0% 2%;
+}
+
+.menuheader
+{
+		display: flex;
+		align-items: center;
+		width: 50%;
+		text-align: center;
+
+
+}
+
+.menuheader a {
+	min-width: 33%;
+	padding: 1%;
+}
+
+.headnav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+
+	padding: 0%;
+	font-size: 15px;
+
+}
+
+.headerR
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 20%;
+
+}
+
+
+.blogme
+{
+	padding-top: 3%
+}
+
+
+
+
+
+						/*FOOOOOOOOOOOOOOTER*/
+.footer
+{
+	display: flex;
+
+		background-color: #313D5A;
+	justify-content: space-between;
+	font-size: 10px;
+	color: #FCFAF1;
+	width: 100%;
+
+
+}
+.about
+{
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+
+}
+
+h3
+{
+	text-align: center;
+	font-size: 14px;
+}
+.news
+{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ ul li
+{
+	list-style : none;
+}
+
+.form
+{
+	padding: 10%;
+}
+
+.logofoot
+
+{
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+
+}
+.logodown
+{
+	display: flex;
+	flex-direction: row;
+	padding: 10%;
+	justify-content: center;
+}
+
+.logo
+{
+ height: 40px;
+ width: 40px;
+ padding: 3%;
+}
+
+fieldset
+{
+	border:none ;
+}
+
+
+
+						/*Landing PAge Style*/
+
+
+
+.presentation
+
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5%0%1%0%;
+}
+
+#shopres
+{
+	text-align: center;
+}
+
+h2
+
+{
+	text-align: center;
+}
+
+
+/*AJOUT REFERENCE*/
+
+.boutonadd
+{
+	
+}
+
+.imagerock
+{
+ width: 100%;
+ background-size-cover
+}
+
+.btn-custom
+{
+	background-color: #313D5A;
+}
+
+.btn-custom2
+{
+	background-color: #FCFAF1;
+	color: #313D5A;
+}
+button
+{
+	color: #FCFAF1;
+}
+
+.jumbotron
+{
+	background-color: #313D5A;
+	color: #FCFAF1;
+}
+
+/*AJOUT DE REFERENCE STYLE*/
+legend
+{
+
+	font-size: 15px;
+}
+
+
+/*STYLE EXTENSION ET APP*/
+.browsericons
+{
+	text-align: center;
+	padding: 5% 0% 5% 0%;
+}
+
+.ExtApp
+{
+	
+padding-top: 5%;
+
+}
+
+.divExt
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 6% 0% 6% 0%;
+}
+
+.divApp
+{
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding:6% 0% 6% 0%;
+
+}
+
+.howitworks
+{
+	padding: 2%;
+}
+
+.fondjumbo
+
+{
+	background-color: #313D5A;
+
+}
+
+.centerbrowser, .centerlogo 
+{
+	display: flex;
+	justify-content: center;
+
+}
+i
+{
+	color: #FCFAF1;
+
+
+}
+
+ .centerlogo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imagelogo
+{
+	justify-content: center;
+}
+
+.Appecran
+{
+	display: flex;
+	justify-content: center;
+}
+.appicons
+{
+	display: flex;
+	justify-content: center;
+}
+/*Contact page*/
+
+
+

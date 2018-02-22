@@ -1,0 +1,100 @@
+/* FONT FACE */
+/* Appelle les polices de la page */
+
+
+
+/*GLOBAL */
+/* Balises et class appelés à plusieurs endroits dans la page */
+/*GLOBAL */
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	-webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+
+*:hover {
+	-webkit-transition: all .2s ease 0s;
+	transition: all .2s ease 0s;
+}
+
+body {
+	
+	margin: 0;
+	line-height: 1.8;
+	
+}
+
+
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 25px;
+	background-color: white;
+
+}
+/* HEADER */
+/* Ce qui concerne le header et la nav */
+
+header nav {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	
+}
+
+header nav a {
+	padding: 25px;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	            -ms-grid-row-align: center;
+	        align-self: center;
+	
+}
+
+header nav a:hover 
+{
+	color: #FCFAF1;
+}
+
+header nav a .fa {
+	display: block;
+	text-align: center;
+	
+}
+
+header nav a:hover .fa {
+	color: #203e4d;
+}
+header
+{
+	background: #313D5A; 
+}
+
+/* MAIN */
+/* Ce qui concerne le corps du site */
+.flex {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-direction: row;
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+/* FOOTER */
+/* Ce qui concerne le footer */
+
+footer
+
+{
+	display: flex;
+	flex-direction: row;
+}
