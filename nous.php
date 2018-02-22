@@ -11,7 +11,7 @@
 	<!-- CSS Vendor -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
 	<!-- CSS Perso -->
-	<link rel="stylesheet" type="text/css" href="css/DMFstyle.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/dmfstyle.css" media="screen" />
 <script
   src="http://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
